@@ -1,0 +1,53 @@
+# 바깥 감시 — 스캔 서버(한국)와 따로 돈다. 사이트 노드 데이터가 3시간 넘게 안 바뀌거나 사이트가 안 열리면
+# 관리자에게 Telegram으로 알린다(서버가 통째로 멈춰 내부 점검도 못 보내는 경우 대비).
+# 비밀값: TG_BOT_TOKEN · TG_ADMIN_CHAT_ID (저장소 Secrets — 로그에는 가려진다)
+name: watchdog
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+    inputs:
+      test:
+        description: "시험 알림 보내기"
+        type: boolean
+        default: false
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: check site data freshness
+        env:
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          TG_ADMIN_CHAT_ID: ${{ secrets.TG_ADMIN_CHAT_ID }}
+          TEST: ${{ inputs.test }}
+        run: |
+          python3 - <<'PY'
+          import datetime as dt, json, os, urllib.parse, urllib.request
+          now = dt.datetime.now(dt.timezone.utc)
+          msg = None
+          try:
+              with urllib.request.urlopen("https://realfreevpn.com/data/nodes.json", timeout=30) as r:
+                  snap = json.load(r)
+              gen = dt.datetime.fromisoformat(snap["generated_at"].replace("Z", "+00:00"))
+              age = (now - gen).total_seconds() / 3600
+              print(f"data age: {age:.2f}h, nodes: {len(snap.get('nodes', []))}")
+              # 3시간 넘으면 알림 — 같은 장애로 매시간 울리지 않게 3·9·15…시간째에만
+              if age >= 3 and (int(age) - 3) % 6 == 0:
+                  msg = f"🚨 [바깥 감시] 사이트 노드 데이터가 {age:.1f}시간째 갱신 안 됨 — 스캔 서버·타이머 확인"
+          except Exception as e:
+              print(f"fetch failed: {type(e).__name__}")
+              if now.hour % 3 == 0:  # 3시간마다만
+                  msg = f"🚨 [바깥 감시] realfreevpn.com 데이터를 읽지 못함 ({type(e).__name__})"
+          if os.environ.get("TEST") == "true":
+              msg = "🧪 [바깥 감시] 시험 알림 — GitHub 감시 작업이 정상으로 연결됐어요"
+          if msg:
+              if not os.environ.get("TG_BOT_TOKEN") or not os.environ.get("TG_ADMIN_CHAT_ID"):
+                  raise SystemExit("Secrets TG_BOT_TOKEN / TG_ADMIN_CHAT_ID 미설정 — 알림 못 보냄: " + msg)
+              data = urllib.parse.urlencode({"chat_id": os.environ["TG_ADMIN_CHAT_ID"], "text": msg}).encode()
+              url = f"https://api.telegram.org/bot{os.environ['TG_BOT_TOKEN']}/sendMessage"
+              with urllib.request.urlopen(url, data=data, timeout=30) as r:
+                  print("alert sent:", json.load(r).get("ok"))
+          PY
