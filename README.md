@@ -1,6 +1,6 @@
 # RealFreeVPN · 免费 VPN 节点 · 무료 VPN 노드 · Free VPN nodes
 
-> 更新 · 업데이트 · Updated: **2026-10-25 14:31 UTC** · 节点 10 个 · 노드 10개 · 10 nodes
+> 更新 · 업데이트 · Updated: **2026-10-25 15:31 UTC** · 节点 10 个 · 노드 10개 · 10 nodes
 
 ## 📥 订阅链接 · 구독 링크 · Subscription
 
@@ -17,15 +17,15 @@ v2rayN · v2rayNG · Hiddify · Shadowrocket → 添加订阅 · 구독 추가 �
 复制全部 → 客户端「从剪贴板导入」 · 전체 복사 → 앱에서 '클립보드에서 가져오기' · Copy all → import from clipboard
 
 ```
-vless://7e68e32f-8015-4f37-9082-70e8b0b58043@13.125.13.26:443?&security=reality&flow=xtls-rprx-vision&pbk=DHOrfoin7TeRpnIoU3d6qT5Yrq3QPVFp49kApATA4iE&sid=e04a526b0b09c765&fp=chrome&sni=telemetry.tesla-dev2.ev-infra.com&type=tcp&headerType=none&host=telemetry.tesla-dev2.ev-infra.com&path=%2F#%F0%9F%87%B0%F0%9F%87%B7%20KR-01%20%7C%20RealFreeVPN
-vless://57beeeb0-03fc-4fc9-94da-7604488a7134@funagfrdfs.alixxplay.com:35544?security=reality&encryption=none&pbk=HrcXRHtsitc_AVlN-_8fZuRgaP-Mqa_9JJotI9OnkVc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=iosapps.itunes.apple.com&sid=25c79e5856c7#%F0%9F%87%B8%F0%9F%87%AC%20SG-01%20%7C%20RealFreeVPN
-vless://57beeeb0-03fc-4fc9-94da-7604488a7134@funagfrdfs.alixxplay.com:30892?encryption=none&flow=xtls-rprx-vision&security=reality&sni=us1p1.xn--ghq880n3na965a.com&pbk=YinI5MijeZpRatg6QNDvP0qXEif-6VHC6gV5yoji4i4&sid=3d31326f95&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20SG-02%20%7C%20RealFreeVPN
-vless://30572b57-f5ab-4eb8-82d4-a24d399b99f6@109.176.229.51:443?security=reality&encryption=none&pbk=4FgTYQNtmGhIj137SdjagESDb61Kl6Anj_de5JP7YBs&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ad9.vkusnews.com#%F0%9F%87%AC%F0%9F%87%A7%20GB-01%20%7C%20RealFreeVPN
-vless://680e92ac-1688-49e0-af96-7327fbc30ce8@193.160.140.119:443?&security=reality&flow=xtls-rprx-vision&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&fp=ios&sni=ozon.ru&type=tcp&headerType=none&host=ozon.ru&path=%2F#%F0%9F%87%B7%F0%9F%87%BA%20RU-01%20%7C%20RealFreeVPN
-vless://680e92ac-1688-49e0-af96-7327fbc30ce8@193.160.141.8:443?security=reality&type=tcp&packetEncoding=xudp&sni=ozon.ru&fp=firefox&flow=xtls-rprx-vision&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&encryption=none#%F0%9F%87%B7%F0%9F%87%BA%20RU-02%20%7C%20RealFreeVPN
-vless://fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87@147.45.47.89:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&sni=ozon.ru&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20RU-03%20%7C%20RealFreeVPN
-vless://ca926603-c678-4639-b726-a5b82d7e110c@113.30.154.207:8443?&security=reality&flow=xtls-rprx-vision&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&fp=ios&sni=apple.com&type=tcp&headerType=none&host=apple.com&path=%2F#%F0%9F%87%B7%F0%9F%87%BA%20RU-04%20%7C%20RealFreeVPN
+vless://fafc7c16-f890-45ee-a856-02df225172dd@31.77.10.167:24503?security=reality&encryption=none&pbk=iiApJD_tVRzp1t8EfIpG7T4dnx-O0ai5nkzD9GUV9Fc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=nl3-gkv6mb.vpvr4ib84nuv6hdkt.ru&sid=02ea11017a1c951f#%F0%9F%87%A9%F0%9F%87%AA%20DE-02%20%7C%20RealFreeVPN
+vless://ca926603-c678-4639-b726-a5b82d7e110c@113.30.154.207:8443?&security=reality&flow=xtls-rprx-vision&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&fp=ios&sni=apple.com&type=tcp&headerType=none&host=apple.com&path=%2F#%F0%9F%87%B7%F0%9F%87%BA%20RU-01%20%7C%20RealFreeVPN
+vless://fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87@147.45.47.89:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&sni=ozon.ru&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20RU-02%20%7C%20RealFreeVPN
+vless://680e92ac-1688-49e0-af96-7327fbc30ce8@193.160.140.119:443?&security=reality&flow=xtls-rprx-vision&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&fp=ios&sni=ozon.ru&type=tcp&headerType=none&host=ozon.ru&path=%2F#%F0%9F%87%B7%F0%9F%87%BA%20RU-03%20%7C%20RealFreeVPN
+vless://680e92ac-1688-49e0-af96-7327fbc30ce8@193.160.141.8:443?security=reality&type=tcp&packetEncoding=xudp&sni=ozon.ru&fp=firefox&flow=xtls-rprx-vision&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&encryption=none#%F0%9F%87%B7%F0%9F%87%BA%20RU-04%20%7C%20RealFreeVPN
 vless://680e92ac-1688-49e0-af96-7327fbc30ce8@45.128.78.176:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&sni=ozon.ru&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20RU-05%20%7C%20RealFreeVPN
+vless://901cb432-3807-404a-9bb8-987814b000ca@213.152.165.200:2092?&security=reality&flow=xtls-rprx-vision&pbk=zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI&sid=716b7eba38125f3a&fp=chrome&sni=www.apple.com&type=tcp&headerType=none&host=www.apple.com&path=%2F#%F0%9F%87%B3%F0%9F%87%B1%20NL-01%20%7C%20RealFreeVPN
+vless://57beeeb0-03fc-4fc9-94da-7604488a7134@funagfrdfs.alixxplay.com:30892?encryption=none&flow=xtls-rprx-vision&security=reality&sni=us1p1.xn--ghq880n3na965a.com&pbk=YinI5MijeZpRatg6QNDvP0qXEif-6VHC6gV5yoji4i4&sid=3d31326f95&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20JP-01%20%7C%20RealFreeVPN
+vless://901cb432-3807-404a-9bb8-987814b000ca@213.152.165.203:2092?&security=reality&flow=xtls-rprx-vision&pbk=zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI&sid=716b7eba38125f3a&fp=chrome&sni=www.apple.com&type=tcp&headerType=none&host=www.apple.com&path=%2F#%F0%9F%87%B3%F0%9F%87%B1%20NL-02%20%7C%20RealFreeVPN
 vless://3d0a1a17-a0a4-41d5-8b6c-37f76ba3ed41@31.76.75.218:443?security=reality&encryption=none&pbk=bkQ2euy5Ls1EELvms1JGr4Bwey673s5CAvSs6b3XzwA&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ya.ru#%F0%9F%87%A9%F0%9F%87%AA%20DE-01%20%7C%20RealFreeVPN
 ```
 
